@@ -16,7 +16,7 @@
       "tags": ["Unity", "C#"],
       "links": [
         {
-          "icon": "external.svg",
+          "icon": "icons/external.svg",
           "id": "#External",
           "url": "https://joelforr.itch.io/pulse"
         }
@@ -33,7 +33,7 @@
       "tags": ["Unity", "C#", "Forleasoelsd"],
       "links": [
         {
-          "icon": "external.svg",
+          "icon": "icons/external.svg",
           "id": "#External",
           "url": "https://joelforr.itch.io/pulse"
         }
@@ -52,12 +52,12 @@
       "tags": ["Unity", "C#"],
       "links": [
         {
-          "icon": "github.svg",
+          "icon": "icons/github.svg",
           "id": "#Github",
           "url": "https://github.com/avv236/TEAMAJAR"
         },
         {
-          "icon": "external.svg",
+          "icon": "icons/external.svg",
           "id": "#External",
           "url": "https://ayl.itch.io/flight-club"
         }

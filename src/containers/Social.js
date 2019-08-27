@@ -29,7 +29,7 @@ class Social extends Component {
               <IconButton
                 size="20px"
                 color="#fff"
-                icon="github.svg"
+                icon="icons/github.svg"
                 id="#Github"
                 href="https://github.com/Joelforr"
               />
@@ -38,7 +38,7 @@ class Social extends Component {
               <IconButton
                 size="20px"
                 color="#fff"
-                icon="linkedin.svg"
+                icon="icons/linkedin.svg"
                 id="#LinkedIn"
                 href="https://www.linkedin.com/in/joel-forrester-404839b6/"
               />
@@ -47,7 +47,7 @@ class Social extends Component {
               <IconButton
                 size="20px"
                 color="#fff"
-                icon="instagram.svg"
+                icon="icons/instagram.svg"
                 id="#Instagram"
                 href="https://www.instagram.com/xzero_reborn/"
               />
@@ -56,7 +56,7 @@ class Social extends Component {
               <IconButton
                 size="30px"
                 color="#fff"
-                icon="twitter.svg"
+                icon="icons/twitter.svg"
                 id="#Twitter"
                 href="https://twitter.com/joelforr1"
               />

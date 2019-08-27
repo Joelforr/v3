@@ -16,7 +16,7 @@ class IconButton extends React.Component {
           <svg>
             <use
               xlinkHref={
-                require("../assets/icons/" + this.props.icon) + this.props.id
+                require("../assets/" + this.props.icon) + this.props.id
               }
             />
             {/* Fallback Here */}

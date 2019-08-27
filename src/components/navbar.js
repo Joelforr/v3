@@ -6,6 +6,9 @@ import { withStyles } from "@material-ui/core/styles";
 
 import BorderSlide from "./slidingborderbutton.js";
 import { SlideUpNav, SlideUpNavItem } from "./slideupbutton.js";
+import { IconButton } from "../components/icons.js";
+
+import "../css/logo.css";
 
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -17,7 +20,8 @@ import Container from "@material-ui/core/Container";
 const styles = theme => ({
   navigation: {
     background: "#282c34",
-    boxShadow: "0px 2px 20px rgba(0,0,0,0.4)"
+    boxShadow: "0px 2px 20px rgba(0,0,0,0.4)",
+    padding: "0px 50px"
   },
   leftAlign: {
     textAlign: "left"
@@ -48,7 +52,14 @@ class NavBarComponent extends Component {
         <HideOnScroll {...this.props}>
           <AppBar>
             <Toolbar className={classes.navigation}>
-              <div>Icon</div>
+              <div className="logo">
+                <a href="/">
+                  <svg>
+                    <use xlinkHref={require("../assets/logo.svg") + "#Logo"} />
+                    {/* Fallback Here */}
+                  </svg>
+                </a>
+              </div>
               <div style={{ marginLeft: "auto" }} />
               <SlideUpNav>
                 <SlideUpNavItem target="/#about" color="#f22987">
