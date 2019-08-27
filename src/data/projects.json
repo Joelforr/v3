@@ -1,0 +1,77 @@
+{
+  "featured": [
+    {
+      "type": "game",
+      "title": "Knockout",
+      "info": {
+        "platforms": ["PC", "PS4"],
+        "team-size": ["Solo"],
+        "responsiblities": ["Game Design", "Programming"]
+      },
+      "desc": {
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "full": null
+      },
+      "thumbnail": "knockout/thumb.png",
+      "tags": ["Unity", "C#"],
+      "links": [
+        {
+          "icon": "external.svg",
+          "id": "#External",
+          "url": "https://joelforr.itch.io/pulse"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "title": "Pulse",
+      "desc": {
+        "short": null,
+        "full": null
+      },
+      "thumbnail": "pulse/thumb.png",
+      "tags": ["Unity", "C#", "Forleasoelsd"],
+      "links": [
+        {
+          "icon": "external.svg",
+          "id": "#External",
+          "url": "https://joelforr.itch.io/pulse"
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "type": "game",
+      "title": "Flight Club",
+      "desc": {
+        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "full": null
+      },
+      "tags": ["Unity", "C#"],
+      "links": [
+        {
+          "icon": "github.svg",
+          "id": "#Github",
+          "url": "https://github.com/avv236/TEAMAJAR"
+        },
+        {
+          "icon": "external.svg",
+          "id": "#External",
+          "url": "https://ayl.itch.io/flight-club"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "title": "Placeholder",
+      "desc": {
+        "short": null,
+        "full": null
+      },
+      "tags": ["Skill", "Skill", "Skill", "Skill"],
+      "links": []
+    }
+  ]
+}

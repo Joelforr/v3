@@ -1,0 +1,41 @@
+.header {
+  margin: 80px 0px 100px 0px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+
+  margin-bottom: 50px;
+}
+
+.thumbnail-container {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+
+.info-container {
+  position: relative;
+  display: block;
+  grid-column: 2/3;
+  grid-row: 1/-1;
+}
+
+.info {
+  font-size: 16px;
+  color: #878d9a;
+  text-transform: capitalize;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0px 0px 20px;
+  color: #d2dfef;
+}
+
+.desc {
+  font-size: 16px;
+  color: #878d9a;
+}

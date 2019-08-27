@@ -1,0 +1,21 @@
+.contact-section {
+  text-align: center;
+  max-width: 600px;
+  margin: 0px auto 100px;
+}
+
+.message {
+  font-family: Calibri, "Work Sans", Roboto, " Helvetica ", " Arial ",
+    sans-serif;
+  font-size: 20px;
+  color: #878d9a;
+}
+
+.contact-button .flood-button {
+  border-color: #a37ef2;
+  margin-top: 50px;
+}
+
+.contact-button .flood-button:hover {
+  background-color: rgba(163, 126, 242, 0.65);
+}

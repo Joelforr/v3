@@ -1,0 +1,41 @@
+.sc {
+  position: "fixed";
+  width: "40px";
+  bottom: "0px";
+  left: "40px";
+  color: #d2dfef;
+}
+
+.socialItemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.socialItemList li {
+  display: list-item;
+  padding-bottom: 30px;
+  transition: 0.25s;
+}
+
+.socialItemList li:hover {
+  transform: translateY(-5px);
+}
+
+.socialItemList li:hover .link a svg {
+  fill: #a37ef2;
+  stroke: #a37ef2;
+}
+
+.socialItemList::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: #d2dfef;
+  margin: 0px auto;
+}

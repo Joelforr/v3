@@ -1,0 +1,58 @@
+[
+  {
+    "employer": "Melcher Media Inc",
+    "url": "https://futureofstorytelling.org/",
+    "role": "VR Technical Manager",
+    "date": {
+      "start": "Feb 2019",
+      "end": "Apr 2019"
+    },
+    "desc": [
+      "Performed as the on-site tech manager for the NYC installation of Chained - a VR immersive theatre experience, at the Future of Story Telling pop-up event",
+      "Provided on-site and remote support & troubleshooting for motion capture and virtual reality hardware/software.",
+      "Ran the show for 3 months, giving individual VR theater experiences to over 900 people priced at $60 a ticket"
+    ]
+  },
+  {
+    "employer": "ESC Games",
+    "url": "https://www.esc.games/",
+    "role": "Junior Game Developer",
+    "date": {
+      "start": "Jun 2018",
+      "end": "Nov 2018"
+    },
+    "desc": [
+      "Developed games and interactive experiences for events and stadiums, targeting big screens and large scale audiences.",
+      "Designed, developed, and wrote technical documentation for priority features of the ESC platform and ESC+Unity API",
+      "Architected systems for an internal game hosting and management system, where clients would have their own accounts to be able to see what games own, download games, and host games.",
+      "Brought the development of the platform application into the closed beta stage through the addition of features and development of an interactive UI made using React.js/Redux.js and Material-UI"
+    ]
+  },
+  {
+    "employer": "NYU Game Center",
+    "url": "https://gamecenter.nyu.edu/",
+    "role": "Code Help Desk",
+    "date": {
+      "start": "Sep 2017",
+      "end": "May 2018"
+    },
+    "desc": [
+      "Reviewed the code of students, aiding in bug fixes for class assignments and personal projects",
+      "Held group and one-on-one tutoring sessions with students where I assisted students with code readability and programming patterns/techniques"
+    ]
+  },
+  {
+    "employer": "NYU IT",
+    "url": "https://www.nyu.edu/life/information-technology/locations-and-facilities/student-technology-centers/laguardia-co-op.html",
+    "role": "Student Technology Assisstant",
+    "date": {
+      "start": "Sep 2016",
+      "end": "May 2018"
+    },
+    "desc": [
+      "Maintained 3 student labs and assisted clients with university resources or software related issues. Improved on outreach and increased student utalization of the labs.",
+      "Designed digital signage, videos, and 3D artwork for the promotion of events and facilities using the Adobe Creative Suite",
+      "Organized and led workshops on Game Development and PC Building, which recorded some of the highest turnouts among student run workshops."
+    ]
+  }
+]
