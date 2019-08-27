@@ -9,28 +9,22 @@
         "responsiblities": ["Game Design", "Programming"]
       },
       "desc": {
-        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "short": "A 2D action platformer that rewards patientece and well timed attacks through its unique stamina system. I'm currently developing and showcasing this project at events.",
         "full": null
       },
       "thumbnail": "knockout/thumb.png",
       "tags": ["Unity", "C#"],
-      "links": [
-        {
-          "icon": "icons/external.svg",
-          "id": "#External",
-          "url": "https://joelforr.itch.io/pulse"
-        }
-      ]
+      "links": []
     },
     {
       "type": "game",
       "title": "Pulse",
       "desc": {
-        "short": null,
+        "short": "A action game that challenges the players visual perception and rythm. Invisible projectiles spawn to the rythm of the music, use your pulse to spot them and survive till the end of the song!",
         "full": null
       },
       "thumbnail": "pulse/thumb.png",
-      "tags": ["Unity", "C#", "Forleasoelsd"],
+      "tags": ["Unity", "C#"],
       "links": [
         {
           "icon": "icons/external.svg",
@@ -46,7 +40,7 @@
       "type": "game",
       "title": "Flight Club",
       "desc": {
-        "short": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "short": "Take to the skies in FLIGHT CLUB, a 1v1 action game, where victory is just a hop and drop away! Challenge your friends -- drop bombs, raise hell, and eliminate your opponent! BOMBS AWAY!",
         "full": null
       },
       "tags": ["Unity", "C#"],
@@ -62,16 +56,6 @@
           "url": "https://ayl.itch.io/flight-club"
         }
       ]
-    },
-    {
-      "type": "game",
-      "title": "Placeholder",
-      "desc": {
-        "short": null,
-        "full": null
-      },
-      "tags": ["Skill", "Skill", "Skill", "Skill"],
-      "links": []
     }
   ]
 }

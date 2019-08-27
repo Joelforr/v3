@@ -113,7 +113,8 @@ class Projects extends Component {
                     </header>
                     <footer>
                       <div>
-                        <FloodButton href="/knockout">Learn More</FloodButton>
+                        {/*Disabled learn more button until completion of descriptor pages */}
+                        {/*<FloodButton href="/knockout">Learn More</FloodButton>*/}
                       </div>
                       <ul className="project-tags">
                         {project.tags.map(tag => (
