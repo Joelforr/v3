@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import "../Content.css";
+import "../Content.scss";
 import "../Experience.css";
 
 import data from "../data/workHistory.json";

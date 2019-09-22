@@ -28,10 +28,23 @@ const styles = theme => ({
   },
   toolbar: theme.mixins.toolbar,
   body: {
-    padding: "0 150px",
+    width: "100%",
+    margin: "0 auto",
 
-    "@media (max-width: 62.5em)": {
+    "@media only screen and (max-width: 480px)": {
+      padding: "0 25px"
+    },
+
+    "@media only screen and (min-width: 481px)": {
+      padding: "0 50px"
+    },
+
+    "@media only screen and (min-width: 769px)": {
       padding: "0 100px"
+    },
+
+    "@media only screen and (min-width: 1001px)": {
+      padding: "0 150px"
     }
   },
   footer: {}
