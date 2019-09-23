@@ -1,0 +1,45 @@
+.nav-container {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  transform: translateX(100vw);
+  visibility: visible;
+  display: block;
+  outline: 0px;
+  transition: 0.3s ease;
+  filter: none;
+}
+
+.slideout-nav {
+  display: flex;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2f323d;
+  width: 50vw;
+  height: 100%;
+  position: relative;
+  right: 0px;
+  margin-left: auto;
+  box-shadow: rgba(2, 12, 27, 0.7) -10px 0px 30px -15px;
+  padding: 50px;
+}
+
+.slideout-nav .slideup-nav li {
+  padding: 20px 0px;
+  transition: 0.3s ease;
+}
+
+.slideout-nav .slideup-nav li a span:nth-child(1) {
+  color: #fff;
+}
+
+.slideout-nav .border-slide {
+  margin: 0px;
+  margin-top: 40px;
+}

@@ -6,7 +6,14 @@ import "../css/slideupbutton.css";
 
 class SlideUpNav extends React.Component {
   render() {
-    return <ul className="slideup-nav">{this.props.children}</ul>;
+    return (
+      <ul
+        className="slideup-nav"
+        style={{ flexDirection: this.props.direction }}
+      >
+        {this.props.children}
+      </ul>
+    );
   }
 }
 

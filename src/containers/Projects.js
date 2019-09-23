@@ -62,7 +62,7 @@ class Projects extends Component {
               <div
                 className={index % 2 == 0 ? "featured-img-l" : "featured-img-r"}
               >
-                <div class="featured-img-src">
+                <div className="featured-img-src">
                   <SvgImage
                     src={require("../assets/" + featured.thumbnail)}
                     sizes="(max-width: 700px) 100vw, 700px"

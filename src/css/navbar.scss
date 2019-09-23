@@ -1,0 +1,16 @@
+.full-nav {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.compressed-nav {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}

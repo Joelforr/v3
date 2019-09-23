@@ -5,6 +5,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import NavBarComponent from "./components/navbar.js";
+
 import Social from "./containers/Social.js";
 import Main from "./containers/Main.js";
 import Knockout from "./containers/projectPages/Knockout";
@@ -67,7 +68,7 @@ class App extends Component {
               <NavBarComponent />
             </div>
             <Social />
-            <div className={classes.body}>
+            <div id="dcontent" className={classes.body}>
               <Route exact path="/" component={Main} />
               <Route exact path="/knockout" component={Knockout} />
             </div>

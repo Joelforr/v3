@@ -6,7 +6,7 @@ class SvgImage extends React.Component {
     return (
       <picture>
         <img
-          srcset={this.props.src}
+          srcSet={this.props.src}
           sizes={this.props.sizes}
           alt
           loading="lazy"
