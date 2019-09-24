@@ -68,6 +68,8 @@ class About extends Component {
             </div>
           </div>
         </div>
+        <img src={"src/assets/me.jpg"}></img>
+        <img src={"src/assets/Warm.jpg"}></img>
       </React.Fragment>
     );
   }
