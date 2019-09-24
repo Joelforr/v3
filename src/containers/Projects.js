@@ -72,7 +72,12 @@ class Projects extends Component {
             </div>
           ))}
         </div>
-
+        <div>
+          <img
+            src={"src/assets/knockout/kno_thumb-01.png?nf_resize=fit&w=1000"}
+            alt="Screenshots of CSS-Tricks and CodePen homepages"
+          />
+        </div>
         {/* Non-featured Projects */}
         <div className="section-wrapper-a">
           <div className="projects-h1">Projects</div>
