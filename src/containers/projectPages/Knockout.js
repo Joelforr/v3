@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import ProjectInfoComponent from "../../components/projectInfo.js";
-import { ProjectDesc } from "../../components/projectInfo.js";
+import { ProjectDesc, ProjectGallery } from "../../components/projectInfo.js";
 
 import projects from "../../data/projects.json";
 
@@ -16,6 +16,7 @@ class Knockout extends Component {
       <React.Fragment>
         <ProjectInfoComponent project={projects.featured[0]} />
         <ProjectDesc project={projects.featured[0]} />
+        <ProjectGallery project={projects.featured[0]} />
       </React.Fragment>
     );
   }

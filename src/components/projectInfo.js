@@ -48,5 +48,25 @@ class ProjectDesc extends Component {
   }
 }
 
-export { ProjectDesc };
+class ProjectGallery extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      toggle: true
+    };
+  }
+
+  render() {
+    const { project } = this.props;
+    return (
+      <React.Fragment>
+        <div className="section-wrapper-a">
+          <div className="section-title">Gallery</div>
+        </div>
+      </React.Fragment>
+    );
+  }
+}
+
+export { ProjectDesc, ProjectGallery };
 export default withStyles(styles)(ProjectInfoComponent);
