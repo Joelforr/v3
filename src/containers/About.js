@@ -10,8 +10,6 @@ import { withStyles } from "@material-ui/core/styles";
 
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import { relative } from "path";
-import { template } from "@babel/core";
 
 const styles = theme => ({});
 
@@ -68,8 +66,6 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <img src={"src/assets/me.jpg"}></img>
-        <img src={"src/assets/Warm.jpg"}></img>
       </React.Fragment>
     );
   }
