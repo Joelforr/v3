@@ -4,21 +4,34 @@
       "type": "game",
       "title": "Knockout",
       "info": {
-        "platforms": ["PC", "PS4"],
+        "platforms": ["PC"],
         "team-size": ["Solo"],
         "responsiblities": ["Game Design", "Programming"]
       },
       "desc": {
-        "short": "A 2D action platformer that rewards patientece and well timed attacks through its unique stamina system. I'm currently developing and showcasing this project at events.",
-        "full": null
+        "short": "A 2D fighitng game that rewards patientece and well timed attacks through its unique stamina system. I'm currently developing and showcasing this project at events.",
+        "full": "Knockout is a 2D fighting game where players go head to head in a best of 9 match. The game's stamina system handles damage calculation and limits how many defensive/offesnive actions you can perform in a short period.",
+        "additional": "Initialy a school project I created Knockout to explore the core gameplay of games like Super Smash Bros, Nidhogg and Tower Fall Acension. The goal was to replicate the feelings that those games gave off, something I like to refer to as the couch game experience. I'm now working on the redesign and commercial development of this project."
       },
       "thumbnail": "knockout/kno_thumb-00.png",
       "tags": ["Unity", "C#"],
-      "links": []
+      "links": [
+        {
+          "icon": "icons/github.svg",
+          "id": "#Github",
+          "url": "https://github.com/Joelforr/CapstoneRefactor"
+        }
+      ],
+      "page": "/knockout"
     },
     {
       "type": "game",
       "title": "Pulse",
+      "info": {
+        "platforms": ["PC"],
+        "team-size": ["Solo"],
+        "responsiblities": ["Game Design", "Programming", "Art"]
+      },
       "desc": {
         "short": "A action game that challenges the players visual perception and rythm. Invisible projectiles spawn to the rythm of the music, use your pulse to spot them and survive till the end of the song!",
         "full": null
@@ -31,7 +44,8 @@
           "id": "#External",
           "url": "https://joelforr.itch.io/pulse"
         }
-      ]
+      ],
+      "page": ""
     }
   ],
 
@@ -55,7 +69,8 @@
           "id": "#External",
           "url": "https://ayl.itch.io/flight-club"
         }
-      ]
+      ],
+      "page": ""
     }
   ]
 }

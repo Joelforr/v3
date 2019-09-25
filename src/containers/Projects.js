@@ -48,8 +48,14 @@ class Projects extends Component {
                     index % 2 == 0 ? "featured-links-r" : "featured-links-l"
                   }
                 >
+                  {index % 2 == 0 && featured.page && (
+                    <div style={{ paddingRight: "16px" }}>
+                      <FloodButton href={featured.page}>Learn More</FloodButton>
+                    </div>
+                  )}
+
                   {featured.links.map(link => (
-                    <span>
+                    <span style={{ alignSelf: "center" }}>
                       <IconButton
                         icon={link.icon}
                         id={link.id}
@@ -57,6 +63,12 @@ class Projects extends Component {
                       />
                     </span>
                   ))}
+
+                  {index % 2 != 0 && featured.page && (
+                    <div style={{ paddingLeft: "16px" }}>
+                      <FloodButton href={featured.page}>Learn More</FloodButton>
+                    </div>
+                  )}
                 </div>
               </div>
               <div
@@ -115,6 +127,11 @@ class Projects extends Component {
                       <div>
                         {/*Disabled learn more button until completion of descriptor pages */}
                         {/*<FloodButton href="/knockout">Learn More</FloodButton>*/}
+                        {project.page && (
+                          <FloodButton href={project.page}>
+                            Learn More
+                          </FloodButton>
+                        )}
                       </div>
                       <ul className="project-tags">
                         {project.tags.map(tag => (
