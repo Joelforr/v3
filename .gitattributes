@@ -1,2 +1,1 @@
-Warm.png filter=lfs diff=lfs merge=lfs -text
-arm.png filter=lfs diff=lfs merge=lfs -text
+test-img.png filter=lfs diff=lfs merge=lfs -text
