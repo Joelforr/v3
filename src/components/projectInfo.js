@@ -92,6 +92,12 @@ class ProjectGallery extends Component {
       <React.Fragment>
         <div className="section-wrapper-a">
           <div className="section-title">Gallery</div>
+          <div className="im">
+            <SvgImage
+              src={require("../assets/test-img.png")}
+              sizes="(max-width: 300px) 100vw, 300px"
+            ></SvgImage>
+          </div>
         </div>
       </React.Fragment>
     );
