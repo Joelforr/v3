@@ -23,8 +23,12 @@ class Knockout extends Component {
           <SectionTitle>Summary of Responsibilities</SectionTitle>
           <SectionBody>
             <p>
-              I was the sole designer and developer for this project. I built a
-              world and planned and scripted gameplay
+              As the sole designer and developer for this project I was
+              responsible for the creative direction of the project
+            </p>
+            <p>
+              I devloped a 2D combat systems utalizing state-machines and other
+              design principles
             </p>
             <p>
               I built a custom animator within Unity with 2D Hit/Hurtbox
@@ -32,8 +36,8 @@ class Knockout extends Component {
             </p>
             <p>I play-tested and tuned new gameplay systems</p>
             <p>
-              Collaborated with artists to create illustrations for the building
-              of the games world
+              Collaborated with artists to create illustrations of the games
+              world
             </p>
           </SectionBody>
         </div>

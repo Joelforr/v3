@@ -22,10 +22,14 @@ class ProjectInfoComponent extends Component {
           </div>
           <div className="grid-container">
             <div className="thumbnail-container">
-              <SvgImage
-                src={require("../assets/" + project.thumbnail)}
-                sizes="(max-width: 700px) 100vw, 700px"
-              ></SvgImage>
+              <iframe
+                width="644"
+                height="362"
+                src="https://www.youtube.com/embed/ysVBz0juLBQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen="allowfullscreeen"
+              ></iframe>
             </div>
             <div className="info-container">
               {Object.keys(project.info).map(key => (
@@ -92,11 +96,25 @@ class ProjectGallery extends Component {
       <React.Fragment>
         <div className="section-wrapper-a">
           <div className="section-title">Gallery</div>
-          <div className="im">
-            <SvgImage
-              src={require("../assets/test-img.png")}
-              sizes="(max-width: 300px) 100vw, 300px"
-            ></SvgImage>
+          <div className="g-grid">
+            <div className="g-grid-item">
+              <SvgImage
+                src={require("../assets/knockout/kaliyuga_c1_portrait.png")}
+                sizes="(max-width: 300px) 100vw, 300px"
+              ></SvgImage>
+            </div>
+            <div className="g-grid-item2">
+              <SvgImage
+                src={require("../assets/knockout/kaliyuga_c1_colorized.png")}
+                sizes="(max-width: 300px) 100vw, 300px"
+              ></SvgImage>
+            </div>
+            <div className="g-grid-item3">
+              <SvgImage
+                src={require("../assets/knockout/kaliyuga_scenic-sketch-1.png")}
+                sizes="(max-width: 300px) 100vw, 300px"
+              ></SvgImage>
+            </div>
           </div>
         </div>
       </React.Fragment>

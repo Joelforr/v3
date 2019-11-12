@@ -52,6 +52,24 @@
   "projects": [
     {
       "type": "game",
+      "title": "Continuum",
+      "desc": {
+        "short": "Explore the world of cyber-space in Continuum, a virtual reality physics based puzzle platformer. #Hacktheworld",
+        "full": "Continuum is a cyber themed, virtual reality physics based puzzle platformer. This prototype was built for my VR Studio class alongside 3 other group members. The prototype features 3 levels and tutorial. For this project we were faced with the VR locomotive issue and try to think of designs that justified the action of teleporting to move. Thus resulting in the physics simulation of throwing a teleport pad, acting as both a means of movement and challenge a for the player. This game 1 of 3 Virtual Reality games featured in the NYU 2017 End of Year Show"
+      },
+      "tags": ["Unity", "C#"],
+      "links": [
+        {
+          "icon": "icons/external.svg",
+          "id": "#External",
+          "url": "https://joelforr.github.io/projects"
+        }
+      ],
+      "page": ""
+    },
+
+    {
+      "type": "game",
       "title": "Flight Club",
       "desc": {
         "short": "Take to the skies in FLIGHT CLUB, a 1v1 action game, where victory is just a hop and drop away! Challenge your friends -- drop bombs, raise hell, and eliminate your opponent! BOMBS AWAY!",
@@ -68,6 +86,24 @@
           "icon": "icons/external.svg",
           "id": "#External",
           "url": "https://ayl.itch.io/flight-club"
+        }
+      ],
+      "page": ""
+    },
+
+    {
+      "type": "game",
+      "title": "Skull Gem",
+      "desc": {
+        "short": "Endlessly slay undead creatures of the night and collect valuable soul gems along the way.",
+        "full": null
+      },
+      "tags": ["Unity", "C#"],
+      "links": [
+        {
+          "icon": "icons/external.svg",
+          "id": "#External",
+          "url": "https://joelforr.github.io/projects"
         }
       ],
       "page": ""
