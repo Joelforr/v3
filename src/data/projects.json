@@ -14,6 +14,7 @@
         "additional": "Initialy a school project I created Knockout to explore the core gameplay of games like Super Smash Bros, Nidhogg and Tower Fall Acension. The goal was to replicate the feelings that those games gave off, something I like to refer to as the couch game experience. I'm now working on the redesign and commercial development of this project."
       },
       "thumbnail": "knockout/kno_thumb-00.png",
+      "iframe": "https://www.youtube.com/embed/ysVBz0juLBQ",
       "tags": ["Unity", "C#"],
       "links": [
         {
@@ -33,8 +34,9 @@
         "responsiblities": ["Game Design", "Programming", "Art"]
       },
       "desc": {
-        "short": "A action game that challenges the players visual perception and rythm. Invisible projectiles spawn to the rythm of the music, use your pulse to spot them and survive till the end of the song!",
-        "full": null
+        "short": "A action game that challenges the players visual perception and rhythm. Invisible projectiles spawn to the rythm of the music, use your pulse to spot them and survive till the end of the song!",
+        "full": "Pulse is a minimal action/rythm game where players dodge projectiles along a circular track. The projectiles spawn in sync with the music and are camoflouged!. Projectiles become visible when your pulse that radiates from the circular track passes over them, making Pulse a game that not only tests your rhythm and reaction time, but also one that tests your perception.",
+        "additional": "Pulse was primarily inspired by Super Hexagon and was a project I took on to learn how to integrate audio to influence primary game systems.  "
       },
       "thumbnail": "pulse/thumb.png",
       "tags": ["Unity", "C#"],
@@ -45,7 +47,7 @@
           "url": "https://joelforr.itch.io/pulse"
         }
       ],
-      "page": ""
+      "page": "/pulse"
     }
   ],
 
@@ -53,6 +55,11 @@
     {
       "type": "game",
       "title": "Continuum",
+      "info": {
+        "platforms": ["PC"],
+        "team-size": ["4"],
+        "responsiblities": ["Game Design", "Programming"]
+      },
       "desc": {
         "short": "Explore the world of cyber-space in Continuum, a virtual reality physics based puzzle platformer. #Hacktheworld",
         "full": "Continuum is a cyber themed, virtual reality physics based puzzle platformer. This prototype was built for my VR Studio class alongside 3 other group members. The prototype features 3 levels and tutorial. For this project we were faced with the VR locomotive issue and try to think of designs that justified the action of teleporting to move. Thus resulting in the physics simulation of throwing a teleport pad, acting as both a means of movement and challenge a for the player. This game 1 of 3 Virtual Reality games featured in the NYU 2017 End of Year Show"

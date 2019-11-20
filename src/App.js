@@ -9,6 +9,7 @@ import NavBarComponent from "./components/navbar.js";
 import Social from "./containers/Social.js";
 import Main from "./containers/Main.js";
 import Knockout from "./containers/projectPages/Knockout";
+import Pulse from "./containers/projectPages/Pulse";
 
 import { withStyles } from "@material-ui/core/styles";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -71,6 +72,7 @@ class App extends Component {
             <div id="dcontent" className={classes.body}>
               <Route exact path="/" component={Main} />
               <Route exact path="/knockout" component={Knockout} />
+              <Route exact path="/pulse" component={Pulse} />
             </div>
             <footer className="section-footer" />
           </BrowserRouter>

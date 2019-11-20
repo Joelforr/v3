@@ -22,14 +22,21 @@ class ProjectInfoComponent extends Component {
           </div>
           <div className="grid-container">
             <div className="thumbnail-container">
-              <iframe
-                width="644"
-                height="362"
-                src="https://www.youtube.com/embed/ysVBz0juLBQ"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen="allowfullscreeen"
-              ></iframe>
+              {project.iframe ? (
+                <iframe
+                  width="644"
+                  height="362"
+                  src={project.iframe}
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen="allowfullscreeen"
+                ></iframe>
+              ) : (
+                <SvgImage
+                  src={require("../assets/" + project.thumbnail)}
+                  sizes="(max-width: 300px) 100vw, 300px"
+                ></SvgImage>
+              )}
             </div>
             <div className="info-container">
               {Object.keys(project.info).map(key => (
