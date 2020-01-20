@@ -27,7 +27,7 @@ class About extends Component {
                 <p>
                   Hello! I’m Joel, a software engineer and game designer based
                   in New York City. I work on a wide variety of projects, from
-                  games and VR experiences to application and web developmont.
+                  games and VR experiences to application and web development.
                 </p>
                 <p>
                   I love all things technology and I’m constantly working to

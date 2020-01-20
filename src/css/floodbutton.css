@@ -69,3 +69,24 @@
   opacity: 1;
   transition: 0.7s;
 }
+
+.disabled {
+  position: relative;
+  height: 42px;
+  padding: 0 20px 2px;
+
+  background: none;
+  border-width: 0px;
+  border: 2px solid #414141;
+  border-radius: 4px;
+
+  align-items: center;
+  text-align: left;
+  text-decoration-skip-ink: auto;
+
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(90, 90, 90);
+
+  overflow: hidden;
+}

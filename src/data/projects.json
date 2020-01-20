@@ -1,6 +1,36 @@
 {
   "featured": [
     {
+      "type": "webapp",
+      "title": "Pathfinding Visualizer.js",
+      "info": {
+        "platforms": ["Web"],
+        "team-size": ["Solo"],
+        "responsiblities": ["Design", "Programming"]
+      },
+      "desc": {
+        "short": "An interactive web app I built to visualize pathfinding algorithims",
+        "full": "Knockout is a 2D fighting game where players go head to head in a best of 9 match. The game's stamina system handles damage calculation and limits how many defensive/offesnive actions you can perform in a short period.",
+        "additional": "Initialy a school project I created Knockout to explore the core gameplay of games like Super Smash Bros, Nidhogg and Tower Fall Acension. The goal was to replicate the feelings that those games gave off, something I like to refer to as the couch game experience. I'm now working on the redesign and commercial development of this project."
+      },
+      "thumbnail": "pathfinding/pathfinding_thumb-00.png",
+      "iframe": "https://www.youtube.com/embed/ysVBz0juLBQ",
+      "tags": ["Javascript", "Web Dev", "Web Design", "Algorithims"],
+      "links": [
+        {
+          "icon": "icons/external.svg",
+          "id": "#External",
+          "url": "https://joelforr.github.io/pathfinding-visualizer/"
+        },
+        {
+          "icon": "icons/github.svg",
+          "id": "#Github",
+          "url": "https://github.com/Joelforr/pathfinding-visualizer"
+        }
+      ],
+      "page": "/"
+    },
+    {
       "type": "game",
       "title": "Knockout",
       "info": {

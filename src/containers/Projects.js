@@ -50,12 +50,23 @@ class Projects extends Component {
                 >
                   {index % 2 == 0 && featured.page && (
                     <div style={{ paddingRight: "16px" }}>
-                      <FloodButton href={featured.page}>Learn More</FloodButton>
+                      <FloodButton
+                        disabled={featured.page == "/"}
+                        href={featured.page}
+                      >
+                        Learn More
+                      </FloodButton>
                     </div>
                   )}
 
                   {featured.links.map(link => (
-                    <span style={{ alignSelf: "center" }}>
+                    <span
+                      style={{
+                        alignSelf: "center",
+                        paddingRight: "8px",
+                        paddingLeft: "8px"
+                      }}
+                    >
                       <IconButton
                         icon={link.icon}
                         id={link.id}
@@ -66,7 +77,12 @@ class Projects extends Component {
 
                   {index % 2 != 0 && featured.page && (
                     <div style={{ paddingLeft: "16px" }}>
-                      <FloodButton href={featured.page}>Learn More</FloodButton>
+                      <FloodButton
+                        disabled={featured.page == "/"}
+                        href={featured.page}
+                      >
+                        Learn More
+                      </FloodButton>
                     </div>
                   )}
                 </div>

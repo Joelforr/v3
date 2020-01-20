@@ -9,14 +9,23 @@ class FloodButton extends React.Component {
     return this.props.external ? (
       <div>
         <a href={this.props.href}>
-          <button className="flood-button" type="button">
+          <button
+            className={this.props.disabled ? "disabled" : "flood-button"}
+            type="button"
+            disabled={this.props.disabled}
+          >
             <span>{this.props.children}</span>
           </button>
         </a>
       </div>
     ) : (
       <Link smooth to={this.props.href}>
-        <button className="flood-button" type="button">
+        <button
+          className={this.props.disabled ? "disabled" : "flood-button"}
+          disabled={true}
+          type="button"
+          disabled={this.props.disabled}
+        >
           <span>{this.props.children}</span>
         </button>
       </Link>
