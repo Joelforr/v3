@@ -143,11 +143,14 @@ class Projects extends Component {
                       <div>
                         {/*Disabled learn more button until completion of descriptor pages */}
                         {/*<FloodButton href="/knockout">Learn More</FloodButton>*/}
-                        {project.page && (
-                          <FloodButton href={project.page}>
+                        {
+                          <FloodButton
+                            disabled={project.page == "/" || project.page == ""}
+                            href={project.page}
+                          >
                             Learn More
                           </FloodButton>
-                        )}
+                        }
                       </div>
                       <ul className="project-tags">
                         {project.tags.map(tag => (
