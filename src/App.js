@@ -10,6 +10,7 @@ import Social from "./containers/Social.js";
 import Main from "./containers/Main.js";
 import Knockout from "./containers/projectPages/Knockout";
 import Pulse from "./containers/projectPages/Pulse";
+import ProjectUnreal from "./containers/projectPages/ProjectUnreal";
 
 import { withStyles } from "@material-ui/core/styles";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -73,6 +74,7 @@ class App extends Component {
               <Route exact path="/" component={Main} />
               <Route exact path="/knockout" component={Knockout} />
               <Route exact path="/pulse" component={Pulse} />
+              <Route exact path="/projectunreal" component={ProjectUnreal} />
             </div>
             <footer className="section-footer" />
           </BrowserRouter>

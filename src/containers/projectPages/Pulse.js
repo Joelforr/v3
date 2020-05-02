@@ -19,8 +19,8 @@ class Pulse extends Component {
   render() {
     return (
       <React.Fragment>
-        <ProjectInfoComponent project={projects.featured[2]} />
-        <ProjectDesc project={projects.featured[2]} />
+        <ProjectInfoComponent project={projects.projects[0]} />
+        <ProjectDesc project={projects.projects[0]} />
         <div className="section-wrapper-a">
           <SectionTitle>Summary of Responsibilities</SectionTitle>
           <SectionBody>

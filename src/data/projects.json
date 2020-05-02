@@ -1,5 +1,26 @@
 {
+  
   "featured": [
+    {
+      "type": "game",
+      "title": "Project: Unreal",
+      "info": {
+        "platforms": ["PC"],
+        "team-size": ["Solo"],
+        "responsiblities": ["Game Design", "Programming", "Animation"]
+      },
+      "desc": {
+        "short": "A WIP FPS game. I'll be posting updates as I make progress.",
+        "full": "Project Unreal is a WIP game that I'm building using Unreal Engine 4. For this project, I primarily worked in C++; The goal being to explore UE4 and the techniques used in modern FPS games.",
+        "additional": "I'm still adding features and will update this page as frequently as possible."
+      },
+      "thumbnail": "projectunreal/projectunreal_placeholder_thumb-00.jpg",
+      "iframe": "",
+      "tags": ["Unreal Engine 4", "C++", "Blueprints", "C#"],
+      "links": [
+      ],
+      "page": "/projectunreal"
+    },
     {
       "type": "webapp",
       "title": "Pathfinding Visualizer.js",
@@ -36,7 +57,7 @@
       "info": {
         "platforms": ["PC"],
         "team-size": ["Solo"],
-        "responsiblities": ["Game Design", "Programming"]
+        "responsiblities": ["Game Design", "Programming", "2DAnimation"]
       },
       "desc": {
         "short": "A 2D fighitng game that rewards patientece and well timed attacks through its unique stamina system. I'm currently developing and showcasing this project at events.",
@@ -54,7 +75,10 @@
         }
       ],
       "page": "/knockout"
-    },
+    }
+  ],
+
+  "projects": [
     {
       "type": "game",
       "title": "Pulse",
@@ -78,10 +102,7 @@
         }
       ],
       "page": "/pulse"
-    }
-  ],
-
-  "projects": [
+    },
     {
       "type": "game",
       "title": "Continuum",

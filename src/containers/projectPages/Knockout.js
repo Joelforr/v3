@@ -17,8 +17,8 @@ class Knockout extends Component {
   render() {
     return (
       <React.Fragment>
-        <ProjectInfoComponent project={projects.featured[1]} />
-        <ProjectDesc project={projects.featured[1]} />
+        <ProjectInfoComponent project={projects.featured[2]} />
+        <ProjectDesc project={projects.featured[2]} />
         <div className="section-wrapper-a">
           <SectionTitle>Summary of Responsibilities</SectionTitle>
           <SectionBody>
